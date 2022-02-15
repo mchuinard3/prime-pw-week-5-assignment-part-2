@@ -1,18 +1,39 @@
-header {
-  background-color: #00008b;
+.light-blue-text {
   color: #e0ffff;
+}
+
+.dark-blue-background-text {
+  background-color: #00008b;
+}
+
+.centered-text {
   text-align: center;
 }
 
-main {
+.light-grey-background {
   background-color: #d3d3d3;
+}
+
+.text-center {
   text-align: center;
+}
+
+.add-padding {
   padding: 1em;
 }
 
 body {
-  background-image: url("record.png");
-  background-repeat: repeat round;
-  background-position: left top;
   margin: 0;
+  }
+
+  .record-image {
+    background-image: url("record.png");
+  }
+
+  .repeat-image {
+    background-repeat: repeat round;
+  }
+
+  .position-left {
+    background-position: left top;
   }
